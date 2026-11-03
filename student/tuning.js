@@ -8,6 +8,8 @@
    tuning panel. Drag the sliders, play, and when you like the feel, press
    "Copy values" and paste the result over the TUNING block below.
 
+
+
    Units, in case you are curious:
      px     = pixels. One block in a level is 24 px wide.
      px/s   = pixels per second (a speed).
@@ -31,7 +33,7 @@ const TUNING = {
   MAX_FALL_SPEED: 900,
 
   // Top running speed.                             try 120 to 400
-  MOVE_SPEED: 220,
+  MOVE_SPEED: 400,
 
   // How quickly you reach top speed on the ground. try 600 (sluggish) to 5000 (snappy)
   GROUND_ACCEL: 2400,
